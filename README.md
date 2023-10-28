@@ -14,7 +14,7 @@ This is the Custom Rom build guide for Redmi Note 11 (spes/spesn)
 
 ```
 
-### Build Environment ###
+## Build Environment ##
 
 Installing required packages
 
@@ -53,3 +53,18 @@ mkdir ~/bin && PATH=~/bin:$PATH && cd ~/bin && curl http://commondatastorage.goo
 
 ```
 Directly Copy Paste these commands
+
+
+## Device Tree ##
+
+```bash
+#Device tree contains
+
+1. device_xiaomi_spes
+2. kernel_xiaomi_spes
+2. vendor_xiaomi_spes
+
+Here spes is my device codename
+It varies phone to phone
+
+```
