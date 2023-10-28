@@ -55,7 +55,7 @@ mkdir ~/bin && PATH=~/bin:$PATH && cd ~/bin && curl http://commondatastorage.goo
 Directly Copy Paste this 👆 commands
 
 
-## Device Tree ##
+## Device Tree (Jabiyeff21) ##
 
 ```bash
 #Device tree contains
