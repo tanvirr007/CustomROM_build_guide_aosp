@@ -248,8 +248,7 @@ That's it. Now, follow next step to start build the rom.
 
 ## Final Step to Build Rom ##
 
-Paste this command and wait until downloading the necessary files
-
+After paste this command the clang will be started to clone in your rom path
 
 ```bash
 
