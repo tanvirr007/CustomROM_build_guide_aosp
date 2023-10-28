@@ -64,7 +64,15 @@ Directly Copy Paste these commands
 2. kernel_xiaomi_spes
 2. vendor_xiaomi_spes
 
-Here spes is my device codename
+spes is my device codename
 It varies phone to phone
+
+```
+
+Pre merged Device Tree
+
+```bash
+
+git clone https://github.com/ProjectBlaze-Devices/device_xiaomi_spes.git -b 13 device/xiaomi/spes
 
 ```
