@@ -29,7 +29,7 @@ sudo apt-get install git-core gnupg flex bison build-essential zip curl zlib1g-d
 ```
 <br>
 
-Setting Up Build Environment
+<b>Setting Up Build Environment</b>
 
 ```bash
 
@@ -45,14 +45,14 @@ add-apt-repository ppa:openjdk-r/ppa && apt-get update && sudo apt-get install g
 ```
 <br>
 
-Cloning Akhil Narang Scripts
+<b>Cloning Akhil Narang Scripts</b>
 
 ```bash
 
 mkdir ~/bin && PATH=~/bin:$PATH && cd ~/bin && curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo && chmod a+x ~/bin/repo && git clone https://github.com/akhilnarang/scripts.git scripts && cd scripts && bash setup/android_build_env.sh && cd
 
 ```
-Directly Copy Paste these commands
+Directly Copy Paste these 👆 commands
 
 
 ## Device Tree ##
@@ -69,7 +69,7 @@ It varies phone to phone
 
 ```
 
-Cloning Pre merged Device Tree
+<b> I'll Clone Pre merged Device Tree</b>
 
 ```bash
 mkdir rom_name
@@ -82,11 +82,11 @@ cd rom_name
 Here,
 
 
--b stands for branch
+<b>-b stands for branch
 
 13 stands for branch name and
 
-device/xiaomi/spes for targeted path
+device/xiaomi/spes for targeted path</b>
 
 ```bash
 
@@ -101,7 +101,7 @@ git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-20
 ```
 
 
-Now navigate to this path 👇
+<b>Now navigate to this path</b> 👇
 
 ```bash
 
@@ -120,32 +120,32 @@ ls
 
 ## Bring Up ##
 
-Now, you must have to modify these 2 files on device tree named
+Now, you must have to modify these <b>2</b>files on device tree named
 
-1. AndroidProducts.mk
-2. blaze_spes.mk
+<b>1. AndroidProducts.mk
+2. blaze_spes.mk</b>
 
-Different rom use different code names likes
+Each rom use different/same code names likes
 
-Pixel Experience use: aosp
+<b>Pixel Experience use: aosp
 
 LMODroid use: lmodroid
 
 PixelOS use: aosp
 
-Project Elixir use: aosp
+Project Elixir use: aosp</b>
 
-it's available either on their GitHub manifest pages or in Telegram group
+it's available either on their <b>GitHub</b> manifest pages or in <b>Telegram</b> group
 
 <br> <br>
 
-Suppose, i am building LMODroid rn
+Suppose, i am building <b>LMODroid</b> right now
 
-So, my code name is lmodroid
+So, my code name is <b>lmodroid</b>
 
-It could be something else according to your Selected Rom
+It could be <b>something else</b> according to your Selected rom
 
-now, open AndroidProducts.mk using nano command
+now, open <b>AndroidProducts.mk</b> using <b>nano</b> command
 
 ```bash
 
@@ -153,25 +153,25 @@ nano AndroidProducts.mk
 
 ```
 
-Where you can see blaze, change it to lmodroid
+Where you can see <b>blaze</b>, change it to <b>lmodroid</b>
 
 
-Now, to save the AndroidProducts.mk press
+Now, to save the <b>AndroidProducts.mk</b> press
 
-"ctrl+o"
+<b>"ctrl+o"
 
 "enter"
 
-"ctrl+x"
+"ctrl+x"</b>
 
 After pressing ctrl+x it will revert back to your current path.
 
 
-Now, it's time to rename & modify the second files named blaze_spes.mk
+Now, it's time to <b>rename & modify</b> the second file named <b>blaze_spes.mk</b>
 
-For this particular rom, my codename is lmodroid
+For this particular rom, my <b>codename is lmodroid</b>
 
-Now, type this to rename 
+<b>Now, type this to rename</b>
 
 ```bash
 
@@ -179,7 +179,7 @@ mv blaze_spes.mk lmodroid_spes.mk
 
 ```
 
-Type
+<b>Type</b>
 
 ```bash
 
@@ -187,7 +187,7 @@ ls
 
 ```
 
-To open "lmodroid_spes.mk", press
+<b>To open "lmodroid_spes.mk", press</b>
 
 ```bash
 
@@ -196,26 +196,26 @@ nano lmodroid_spes.mk
 ```
 
 
-Change these things:
+Change these <b>2</b> things:
 
 1. Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
+$(call inherit-product, vendor/<b>blaze</b>/config/common_full_phone.mk)
 
 2. Product Specifics
-PRODUCT_NAME := blaze_spes
+PRODUCT_NAME := <b>blaze</b>_spes
 
 
 
-It could be something else according to your device tree
+It could be something <b>else</b> according to your device tree
 
 
-Change 1: replace "blaze" with lmodroid
+<b>Change 1: replace "blaze" with lmodroid
 
-Change 2: replace blaze_spes to lmodroid_spes
+Change 2: replace blaze_spes to lmodroid_spes</b>
 
-I mean, in this two subsection replace the word "blaze" with "lmodroid"
+I mean, in this two subsection <b>replace the word "blaze" with "lmodroid"</b>
 
-Now, do the same procedure to save and exit as you did to save the AndroidProducts.mk
+Now, do the same procedure to save and exit as you did to save the <b>AndroidProducts.mk</b>
 
 
 ## Locate Rom Path ##
@@ -228,7 +228,7 @@ cd .. && cd .. && cd .. && ls
 
 ```
 
-or this
+<b>or this</b>
 
 ```bash
 
@@ -245,10 +245,12 @@ ls
 
 That's it. Now, follow next step to start build the rom.
 
+<br> <br>
+
 
 ## Final Step to Build Rom ##
 
-After paste this command the clang will be started to clone in your rom path
+The <b>clang</b> will be started to clone in your device After paste this command 👇
 
 ```bash
 
@@ -257,8 +259,8 @@ After paste this command the clang will be started to clone in your rom path
 ```
 
 
-If you want gapps build paste this;
-If you want vanilla build skip this & directly follow the next step
+If you want <b>gapps</b> build paste this;
+If you want <b>vanilla</b> build <b>skip</b> this & directly paste the <b>lunch</b> command
 
 ```bash
 
@@ -294,3 +296,16 @@ make bacon
 mka bacon -jX
 
 ```
+
+***Here if you paste your cpu core number instead of X then you it wil use all of the cores of your server to compile the rom. I have a 16-core cpu so, the the command will be like 👇
+
+
+```bash
+
+mka bacon -j16
+
+```
+
+All sources are collected from GitHub.
+
+This <b>README.md</b> is written by Tanvir Hasan
