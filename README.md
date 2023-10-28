@@ -267,11 +267,31 @@ exportWITH_GAPPS=true
 
 ```
 
+```bash
+
+lunch lmodroid_spes-userdebug
+
+```
+
 
 <b>Start compilation<b>
 
 ```bash
 
 m bacon -jX
+
+```
+
+If it's not working for you then you can try these commands below 👇
+
+```bash
+
+make bacon
+
+```
+
+```bash
+
+mka bacon -jX
 
 ```
