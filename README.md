@@ -137,6 +137,8 @@ Project Elixir use: aosp
 
 it's available either on their GitHub manifest pages or in Telegram group
 
+<br> <br>
+
 Suppose, i am building LMODroid rn
 
 So, my code name is lmodroid
@@ -161,4 +163,55 @@ Now, to save the AndroidProducts.mk press
 "ctrl+x"
 
 After pressing ctrl+x it will revert back to your current path.
+
+
+Now, it's time to rename & modify the second files named blaze_spes.mk
+
+For this particular rom, my codename is lmodroid
+
+Now, type this to rename 
+
+```bash
+
+mv blaze_spes.mk lmodroid_spes.mk
+
+```
+
+Type
+
+```bash
+
+ls
+
+```
+
+To open "lmodroid_spes.mk", press
+
+```bash
+
+nano lmodroid_spes.mk
+
+```
+
+
+Change these things:
+
+1. Inherit some common LineageOS stuff.
+$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
+
+2. Product Specifics
+PRODUCT_NAME := blaze_spes
+
+
+
+It could be something else according to your device tree
+
+
+Change 1: replace "blaze" with lmodroid
+
+Change 2: replace blaze_spes to lmodroid_spes
+
+I mean, in this two subsection replace the word "blaze" with "lmodroid"
+
+Now, do the same procedure to save and exit as you did to save the AndroidProducts.mk
 
