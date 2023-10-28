@@ -307,6 +307,5 @@ mka bacon -j16
 
 ```
 
-All sources are collected from GitHub.
 
-This <b>README.md</b> is written by Tanvir Hasan
+This <b>Custom Rom</b> build guide is written by Tanvir Hasan
