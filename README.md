@@ -14,7 +14,7 @@ This is the Custom Rom build guide for Redmi Note 11 (spes/spesn)
 
 ```
 
-## Environment Setup ##
+### Build Environment ###
 
 Installing required packages
 
@@ -27,9 +27,29 @@ Version: 64-bit
 sudo apt-get install git-core gnupg flex bison build-essential zip curl zlib1g-dev libc6-dev-i386 libncurses5 x11proto-core-dev libx11-dev lib32z1-dev libgl1-mesa-dev libxml2-utils xsltproc unzip fontconfig
 
 ```
+<br>
+
+Setting Up Build Environment
 
 ```bash
 
 sudo su
 
 ```
+
+
+```bash
+
+add-apt-repository ppa:openjdk-r/ppa && apt-get update && sudo apt-get install git-core gnupg flex bison build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 libncurses5 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z1-dev libgl1-mesa-dev libxml2-utils xsltproc unzip fontconfig && exit
+
+```
+<br>
+
+Cloning Akhil Narang Scripts
+
+```bash
+
+mkdir ~/bin && PATH=~/bin:$PATH && cd ~/bin && curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo && chmod a+x ~/bin/repo && git clone https://github.com/akhilnarang/scripts.git scripts && cd scripts && bash setup/android_build_env.sh && cd
+
+```
+Directly Copy Paste these commands
