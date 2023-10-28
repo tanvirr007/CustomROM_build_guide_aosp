@@ -120,7 +120,7 @@ ls
 
 ## Bring Up ##
 
-Now, you must have to modify these <b>2</b>files on device tree named
+Now, you must have to modify these <b>2</b> files on device tree named
 
 <b>1. AndroidProducts.mk
 2. blaze_spes.mk</b>
