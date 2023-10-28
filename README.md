@@ -69,10 +69,33 @@ It varies phone to phone
 
 ```
 
-Pre merged Device Tree
+Cloning Pre merged Device Tree
+
+```bash
+mkdir rom_name
+```
+
+```bash
+cd rom_name
+```
+<br>
+Here,
+
+
+-b stand for branch
+
+13 stand for branch name
+
+device/xiaomi/spes stands for targeted path
 
 ```bash
 
 git clone https://github.com/ProjectBlaze-Devices/device_xiaomi_spes.git -b 13 device/xiaomi/spes
+
+```
+
+```bash
+
+git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-20 hardware/xiaomi
 
 ```
