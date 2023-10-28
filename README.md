@@ -52,7 +52,7 @@ add-apt-repository ppa:openjdk-r/ppa && apt-get update && sudo apt-get install g
 mkdir ~/bin && PATH=~/bin:$PATH && cd ~/bin && curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo && chmod a+x ~/bin/repo && git clone https://github.com/akhilnarang/scripts.git scripts && cd scripts && bash setup/android_build_env.sh && cd
 
 ```
-Directly Copy Paste these 👆 commands
+Directly Copy Paste this 👆 commands
 
 
 ## Device Tree ##
