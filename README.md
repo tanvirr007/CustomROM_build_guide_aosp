@@ -55,7 +55,7 @@ mkdir ~/bin && PATH=~/bin:$PATH && cd ~/bin && curl http://commondatastorage.goo
 Directly Copy Paste this 👆 commands
 
 
-## Device Tree (Jabiyeff21) ##
+## Device Tree ##
 
 ```bash
 #Device tree contains
@@ -69,7 +69,12 @@ It varies phone to phone
 
 ```
 
-<b> I'll Clone Pre merged Device Tree</b>
+i will use
+device tree / vendor tree from jabiyeff21 and dblenk9
+
+Mi680 kernel from AkiraNoSushi and muralivijay9845
+
+<b>Pre merged Device/Vendor/Kernel Tree</b>
 
 ```bash
 mkdir rom_name
@@ -79,6 +84,7 @@ mkdir rom_name
 cd rom_name
 ```
 <br>
+ 
 Here,
 
 
@@ -86,7 +92,9 @@ Here,
 
 13 stands for branch name and
 
-device/xiaomi/spes for targeted path</b>
+device/xiaomi/spes for targeted path
+
+</b>
 
 ```bash
 
