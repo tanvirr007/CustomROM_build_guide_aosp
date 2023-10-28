@@ -260,6 +260,7 @@ The <b>clang</b> will be started to clone in your device After paste this comman
 
 
 If you want <b>gapps</b> build paste this;
+
 If you want <b>vanilla</b> build <b>skip</b> this & directly paste the <b>lunch</b> command
 
 ```bash
@@ -297,7 +298,7 @@ mka bacon -jX
 
 ```
 
-***Here if you paste your cpu core number instead of X then you it wil use all of the cores of your server to compile the rom. I have a 16-core cpu so, the the command will be like 👇
+***Here if you paste your cpu core number instead of X then you it wil use all of the cores of your server to compile the rom. I have a 16-core cpu so, the command will be like 👇
 
 
 ```bash
