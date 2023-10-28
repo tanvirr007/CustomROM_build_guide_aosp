@@ -82,11 +82,11 @@ cd rom_name
 Here,
 
 
--b stand for branch
+-b stands for branch
 
-13 stand for branch name
+13 stands for branch name and
 
-device/xiaomi/spes stands for targeted path
+device/xiaomi/spes for targeted path
 
 ```bash
 
@@ -99,3 +99,66 @@ git clone https://github.com/ProjectBlaze-Devices/device_xiaomi_spes.git -b 13 d
 git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-20 hardware/xiaomi
 
 ```
+
+
+Now navigate to this path 👇
+
+```bash
+
+cd device/xiaomi/spes
+
+```
+
+```bash
+
+ls
+
+```
+
+<br>
+
+
+## Bring Up ##
+
+Now, you must have to modify these 2 files on device tree named
+
+1. AndroidProducts.mk
+2. blaze_spes.mk
+
+Different rom use different code names likes
+
+Pixel Experience use: aosp
+
+LMODroid use: lmodroid
+
+PixelOS use: aosp
+
+Project Elixir use: aosp
+
+it's available either on their GitHub manifest pages or in Telegram group
+
+Suppose, i am building LMODroid rn
+
+So, my code name is lmodroid
+
+now, open AndroidProducts.mk using nano command
+
+```bash
+
+nano AndroidProducts.mk
+
+```
+
+Where you can see blaze, change it to lmodroid
+
+
+Now, to save the AndroidProducts.mk press
+
+"ctrl+o"
+
+"enter"
+
+"ctrl+x"
+
+After pressing ctrl+x it will revert back to your current path.
+
