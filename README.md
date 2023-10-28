@@ -143,6 +143,8 @@ Suppose, i am building LMODroid rn
 
 So, my code name is lmodroid
 
+It could be something else according to your Selected Rom
+
 now, open AndroidProducts.mk using nano command
 
 ```bash
@@ -215,3 +217,61 @@ I mean, in this two subsection replace the word "blaze" with "lmodroid"
 
 Now, do the same procedure to save and exit as you did to save the AndroidProducts.mk
 
+
+## Locate Rom Path ##
+
+Now manually type ( cd .. ) to go on your rom directory, or paste this command below 👇
+
+```bash
+
+cd .. && cd .. && cd .. && ls
+
+```
+
+or this
+
+```bash
+
+cd .. && cd .. && cd ..
+
+```
+
+```bash
+
+ls
+
+```
+
+
+That's it. Now, follow next step to start build the rom.
+
+
+## Final Step to Build Rom ##
+
+Paste this command and wait until downloading the necessary files
+
+
+```bash
+
+. build/envsetup.sh
+
+```
+
+
+If you want gapps build paste this;
+If you want vanilla build skip this & directly follow the next step
+
+```bash
+
+exportWITH_GAPPS=true
+
+```
+
+
+<b>Start compilation<b>
+
+```bash
+
+m bacon -jX
+
+```
