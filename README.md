@@ -10,7 +10,7 @@ This is the Custom Rom build guide for Redmi Note 11 (spes/spesn)
 4. Device: Redmi Note 11
 5. Codename: spes/spesn
 6. Stable internet connection
-7. OS Ubuntu 20.4 LTS or latest
+7. OS Ubuntu 20.04 LTS or latest
 
 ```
 
