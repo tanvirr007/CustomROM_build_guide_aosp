@@ -279,7 +279,19 @@ exportWITH_GAPPS=true
 
 ```bash
 
+lunch lmodroid_spes-user
+
+```
+
+```bash
+
 lunch lmodroid_spes-userdebug
+
+```
+
+```bash
+
+lunch lmodroid_spes-eng
 
 ```
 
