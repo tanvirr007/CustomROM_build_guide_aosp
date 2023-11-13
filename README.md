@@ -331,7 +331,7 @@ mka bacon -jX
 
 ```
 
-***Here if you paste your cpu core number instead of X then you it wil use all of the cores of your server to compile the rom. I have a 16-core cpu so, the command will be like 👇
+***Here if you paste your cpu core number instead of (X) then you it wil use all of the cores of your server to compile the rom. I have a 16-core cpu so, the command will be like 👇
 
 
 ```bash
