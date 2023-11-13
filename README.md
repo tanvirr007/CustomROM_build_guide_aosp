@@ -269,13 +269,16 @@ The <b>clang</b> will be started to clone in your device After paste this comman
 
 If you want <b>gapps</b> build paste this;
 
-If you want <b>vanilla</b> build <b>skip</b> this & directly paste the <b>lunch</b> command
+If you want <b>vanilla</b> build <b>skip</b> this step & directly paste one of these <b>lunch</b> commands
 
 ```bash
 
 exportWITH_GAPPS=true
 
 ```
+
+## Lunch ##
+
 
 ```bash
 
