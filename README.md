@@ -300,7 +300,12 @@ lunch lmodroid_spes-eng
 
 ```
 
-<b> Note: </b>
+<b> Note: </b> <br>
+user: Optimized for regular users, excludes debugging info.
+
+userdebug: Includes debugging info, useful for developers.
+
+eng (engineering): Most verbose, for engineers, includes advanced debugging tools and development features. Not for regular users.
 
 
 
