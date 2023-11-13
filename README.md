@@ -279,7 +279,7 @@ exportWITH_GAPPS=true
 
 ```
 
-## Lunch ##
+## Lunch Commands ##
 
 
 ```bash
@@ -300,8 +300,11 @@ lunch lmodroid_spes-eng
 
 ```
 
+<b> Note: </b>
 
-<b>Start compilation<b>
+
+
+## Start compilation ##
 
 ```bash
 
