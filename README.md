@@ -301,11 +301,11 @@ lunch lmodroid_spes-eng
 ```
 
 <b> Note: </b> <br>
-user: Optimized for regular users, excludes debugging info.
+user: User builds are the final product that is released to the public. They are optimized for performance and security, and most debugging features are disabled.
 
-userdebug: Includes debugging info, useful for developers.
+userdebug: This build is similar to the user build, but it has some additional features enabled that are useful for debugging and beta testing. For example, the userdebug build allows you to connect a debugger to any process, and it enables more detailed logging.
 
-eng (engineering): Most verbose, for engineers, includes advanced debugging tools and development features. Not for regular users.
+eng (engineering): This build is designed for engineers who are developing and testing the ROM. It has all of the features of the userdebug build, plus some additional features that are useful for development, such as root access. But it's not optimized for performance or security. Not recommended for regular users.
 
 
 
