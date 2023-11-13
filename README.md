@@ -300,7 +300,7 @@ lunch lmodroid_spes-eng
 
 ```
 
-<b> Impo6 Notes: </b> <br>
+<b> Important Notes: </b> <br>
 <b>user:</b> User builds are the final product that is released to the public. They are optimized for performance and security, and most debugging features are disabled.
 
 <b>userdebug:</b> This build is similar to the user build, but it has some additional features enabled that are useful for debugging and beta testing. For example, the userdebug build allows you to connect a debugger to any process, and it enables more detailed logging.
