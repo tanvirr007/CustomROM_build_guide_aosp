@@ -267,6 +267,8 @@ The <b>clang</b> will be started to clone in your device After paste this comman
 ```
 
 
+## Gapps & Vanilla ##
+
 If you want <b>gapps</b> build paste this;
 
 If you want <b>vanilla</b> build <b>skip</b> this step & directly paste one of these <b>lunch</b> commands
