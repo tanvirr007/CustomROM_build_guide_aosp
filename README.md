@@ -345,6 +345,6 @@ This <b>Custom Rom</b> build guide is written by Tanvir Hasan
 
 <b>Contact:</b> <br>
 
-<b color="blue">Telegram:</b> tanvirr007 
+<a href="https://t.me/tanvirr007">Telegram</a>
 
 <b>Email:</b> tanvirhasan2005@proton.me
