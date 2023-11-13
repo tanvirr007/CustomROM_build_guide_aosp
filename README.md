@@ -344,7 +344,7 @@ mka bacon -j16
 This <b>Custom Rom</b> build guide is written by Tanvir Hasan
 
 <br>
-<b>Contact:</b> <br>
+<u><b>Contact:</b></u> <br> <br>
 
 <a href="mailto:tanvirhasan2005@proton.me">Email</a>
 
