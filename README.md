@@ -337,7 +337,7 @@ m bacon -jX
 
 ```
 
-If it's not working for you then you can try these commands below 👇
+If it's not working for you then you can try one these commands below 👇
 
 ```bash
 
