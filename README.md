@@ -372,7 +372,7 @@ Done, Now wait patiently.
 # Author #
 
 
-This guide is based on the work of <strong>Tanvir Hasan (tanvirr007)</strong>. Please give proper credit to the author of this guide, <strong>@tanvirr007</strong>, when using it in your own Rom.
+This guide is based on the work of <strong>Tanvir Hasan (tanvirr007)</strong>. Please give proper credit to the author of this guide, [@tanvirr007](https://github.com/tanvirr007) , when using it in your own Rom.
 
 
 <br> <b>Contact:</b> <a href="mailto:tanvirhasan2005@proton.me">Email</a> && <a href="https://t.me/tanvirr007">Telegram</a>
