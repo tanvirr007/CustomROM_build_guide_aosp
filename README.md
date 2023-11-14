@@ -346,7 +346,7 @@ mka bacon -j16
 
 ```bash
 
-Done, Now wait patiently
+Done, Now wait patiently.
 
 ```
 
