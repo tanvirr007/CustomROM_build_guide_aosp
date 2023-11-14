@@ -88,7 +88,11 @@ Thanks @muralivijay9845 for Mi680 kernel
 
 Thanks @JassiV07 for recovery
 
-Thanks @akhilnarang for base setup script
+Thanks @akhilnarang for base setup/env script
+
+
+
+## Starting ##
 
 <b>I'll use Pre merged Device/Vendor/Kernel Tree</b>
 
