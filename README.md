@@ -74,7 +74,11 @@ device tree / vendor tree from jabiyeff21 and dblenk9
 
 Mi680 kernel from AkiraNoSushi and muralivijay9845
 
-<b>Pre merged Device/Vendor/Kernel Tree</b>
+Thanks @sayann70 for base
+
+Thanks @JassiV07 for recovery
+
+<b>I'll use Pre merged Device/Vendor/Kernel Tree</b>
 
 ```bash
 mkdir rom_name
@@ -341,7 +345,7 @@ mka bacon -j16
 ```
 
 
-This <b>Custom Rom</b> build guide is written by Tanvir Hasan
+This guide is based on the work of <b>Tanvir Hasan (tanvirr007)<\b>. Please give proper credit to the author of this guide, <b>@tanvirr007<\b>, when using it in your own Rom.
 
 <br> <b>Contact:</b>
 
