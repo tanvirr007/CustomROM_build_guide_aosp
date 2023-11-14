@@ -345,7 +345,7 @@ mka bacon -j16
 ```
 
 
-This guide is based on the work of <b>Tanvir Hasan (tanvirr007)<\b>. Please give proper credit to the author of this guide, <b>@tanvirr007<\b>, when using it in your own Rom.
+This guide is based on the work of <strong>Tanvir Hasan (tanvirr007)</strong>. Please give proper credit to the author of this guide, <strong>@tanvirr007</strong>, when using it in your own Rom.
 
 <br> <b>Contact:</b>
 
