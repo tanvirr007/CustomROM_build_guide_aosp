@@ -74,9 +74,21 @@ device tree / vendor tree from jabiyeff21 and dblenk9
 
 Mi680 kernel from AkiraNoSushi and muralivijay9845
 
-Thanks @sayann70 for base
+## Credits ##
+
+Thanks @jabiyeff21 for device tree
+
+Thanks @dblenk9 for device tree
+
+Thanks @sayann70 (bro) for base
+
+Thanks @AkiraNoSushi for Mi680 kernel
+
+Thanks @muralivijay9845 for Mi680 kernel
 
 Thanks @JassiV07 for recovery
+
+Thanks @akhilnarang for base setup script
 
 <b>I'll use Pre merged Device/Vendor/Kernel Tree</b>
 
