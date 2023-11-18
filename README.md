@@ -120,7 +120,7 @@ device/xiaomi/spes for targeted path
 
 ```bash
 
-git clone https://github.com/ProjectBlaze-Devices/device_xiaomi_spes.git -b 13 device/xiaomi/spes
+git clonehttps://github.com/tanvirr007/device_xiaomi_spes -b 13 device/xiaomi/spes
 
 ```
 
