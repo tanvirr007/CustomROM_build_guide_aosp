@@ -62,8 +62,9 @@ Directly Copy Paste this 👆 command
 #Device tree contains
 
 1. device_xiaomi_spes
-2. kernel_xiaomi_spes
 2. vendor_xiaomi_spes
+2. hardware_xiaomi_spes
+3. kernel_xiaomi_spes
 
 spes is my device codename
 It varies phone to phone
