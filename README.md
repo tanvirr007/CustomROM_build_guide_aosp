@@ -77,7 +77,7 @@ Thanks @jabiyeff21 for device tree
 
 Thanks @dblenk9 for device tree
 
-Thanks @sayann70] (bro) for base
+Thanks @sayann70 (bro) for base
 
 Thanks @AkiraNoSushi for Mi680 kernel
 
@@ -85,7 +85,7 @@ Thanks @muralivijay9845 for Mi680 kernel
 
 Thanks @JassiV07 for recovery
 
-Thanks [@iamharshit188](https://github.com/iamharshit188)for base setup/env script
+Thanks [@iamharshit188](https://github.com/iamharshit188) (bro) for base setup/env script
 
 
 
