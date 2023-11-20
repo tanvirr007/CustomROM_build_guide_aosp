@@ -258,8 +258,18 @@ To add <b>MAINTAINER NAME && BUILD TYPE</b> it may <b>vary</b> on the rom to rom
 
 Use <b>nano</b> command to edit the .mk && .xml files
 <b>For e.g.:</b> 
-1. <b>ProjectBlaze:</b> nano blaze_spes.mk
-2. <b>EvolutionX:</b> nano evolution_strings.xml
+
+1. <b>ProjectBlaze:</b> 
+
+```bash
+nano blaze_spes.mk
+```
+
+2. <b>EvolutionX:</b> 
+
+```bash
+nano evolution_strings.xml
+```
 
 Now, do the same procedure to save and exit as you did to save the <b>AndroidProducts.mk</b> && <b>lmodroid_spes.mk</b>
 
