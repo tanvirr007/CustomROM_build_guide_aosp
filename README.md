@@ -336,11 +336,23 @@ lunch lmodroid_spes-eng
 
 ```bash
 
-m bacon -jX
+mka bacon -j$(nproc --all)
 
 ```
 
-If it's not working for you then you can try one these commands below 👇
+First command is recommended but If it's not working for you then you can try one these commands below 👇
+
+```bash
+
+mka bacon
+
+```
+
+```bash
+
+brunch spes
+
+```
 
 ```bash
 
