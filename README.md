@@ -294,12 +294,17 @@ cd .. && cd .. && cd .. && ls
 <b>or this</b>
 
 ```bash
+cd ../../../ && ls
+```
+
+```bash
 cd .. && cd .. && cd ..
 ```
 
 ```bash
 ls
 ```
+
 That's it. Now, follow next step to start build the rom.
 <br> <br>
 ## Final Step to Build Rom ##
