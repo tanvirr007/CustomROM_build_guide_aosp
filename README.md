@@ -137,7 +137,7 @@ thirteen stands for branch name
 
 ## Clone Device Tree ##
 
-<b>Download/Clone</b> Device/Vendor/Hardware/Kernel tree from GitHub or GitLab into the <b>rom_name</b> folder. I'll use my Pre merged Device/Vendor//Hardware Kernel Tree
+<b>Download/Clone</b> Device/Vendor/Hardware/Kernel tree from GitHub or GitLab into the <b>rom_name</b> folder. I'll use my Pre merged Device/Vendor/Hardware/Kernel Tree
 
 ```bash
 
