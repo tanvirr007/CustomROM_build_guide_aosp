@@ -289,15 +289,16 @@ In the context of Android custom ROMs, flags and overlays are two methods used t
 The maintainer name is a piece of information that is often displayed on the about section in the ROM's settings menu. It is typically used to identify the person or team who is responsible for maintaining the ROM. 
 
 To add maintainer name it's vary on the rom to rom.
+
 <b>For e.g.:</b> 
-1. Project Blaze use flag &
-2. EvolutionX use overlay
+1. <b>ProjectBlaze</b> use flag &
+2. <b>EvolutionX</b> use overlay
 
 <b>Default path:</b>
 
-1. <b>Project Blaze</b>: device/xiaomi/spes/blaze_spes.mk
+1.<b>ProjectBlaze</b>: device/xiaomi/spes/blaze_spes.mk
 
-2. <b>EvolutionX</b>: device/xiaomi/spes/overlay/packages/apps/Settings/res/values/evolution_strings.xml
+2.<b>EvolutionX</b>: device/xiaomi/spes/overlay/packages/apps/Settings/res/values/evolution_strings.xml
 
 
 
