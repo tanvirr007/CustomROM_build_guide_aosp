@@ -312,7 +312,7 @@ That's it. Now, follow next step to start build the rom.
 
 ## Final Step to Build Rom ##
 
-The <b>clang</b> will be started to clone in your device After paste this command 👇
+The <b>vendor & kernel</b> will be started to clone in your device After paste this command 👇
 
 ```bash
 
