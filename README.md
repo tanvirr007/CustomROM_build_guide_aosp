@@ -200,7 +200,7 @@ Project Elixir use: aosp</b>
 
 it's available either on their <b>GitHub</b> manifest pages or in <b>Telegram</b> group
 
-<br> <br>
+<br>
 
 I am building <b>LMODroid</b> right now
 
