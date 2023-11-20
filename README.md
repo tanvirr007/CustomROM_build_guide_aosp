@@ -280,6 +280,20 @@ I mean, in this two subsection <b>replace the word "blaze" with "lmodroid"</b>
 Now, do the same procedure to save and exit as you did to save the <b>AndroidProducts.mk</b>
 
 
+## Add Maintainer Tag ##
+
+If your rom support maintainer option, Then you can use either flags or overlays to set maintainer names by specifying variables, enabling easy customization without changing core code. 
+
+In the context of Android custom ROMs, flags and overlays are two methods used to modify the appearance and functionality of the ROM. Flags are typically used to enable or disable specific features, while overlays are used to replace or modify existing UI elements. 
+
+The maintainer name is a piece of information that is often displayed on the about section in the ROM's settings menu. It is typically used to identify the person or team who is responsible for maintaining the ROM. 
+
+To add maintainer name it's vary on the rom to rom.
+<b>For e.g.:</b> 
+1. Project Blaze use flag
+2. EvolutionX use overlay
+
+
 ## Locate Rom Path ##
 
 Now manually type ( cd .. ) to go on your rom directory, or paste this command below 👇
