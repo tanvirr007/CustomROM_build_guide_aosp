@@ -356,7 +356,7 @@ make bacon
 ```
 
 ```bash
-mka bacon -j$(nproc --all)
+mka bacon -jX
 ```
 
 ***If you replace the (X) with the number of CPU cores your system has, the command will utilize all the cores available for compiling the ROM. For example, I have a 16-core CPU, so the command would look like this:👇
@@ -369,6 +369,8 @@ mka bacon -j16
 ```
 
 Done, Now wait patiently.
+
+
 # Author #
 
 
