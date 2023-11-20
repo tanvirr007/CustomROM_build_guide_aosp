@@ -157,6 +157,7 @@ cd device/xiaomi/spes
 ls
 ```
 <br>
+
 ## Bring Up ##
 
 Now, you must have to modify these <b>2</b> files on device tree named
