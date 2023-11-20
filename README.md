@@ -16,7 +16,7 @@ This is the Custom Rom build guide for Redmi Note 11 (spes/spesn)
 
 ```
 
-## Build Environment ##
+## Requirements ##
 
 OS: Ubuntu 18.04 and higher [Any operating system would do (Debian Recommended)]
 Version: 64-bit
@@ -30,12 +30,20 @@ sudo apt-get install git-core gnupg flex bison build-essential zip curl zlib1g-d
 
 
 
-## First clone this repo ##
+## Build Environment ##
+
 <b>Setting Up Build Environment</b>
 
 ```bash
 git clone https://github.com/tanvirr007/CustomROM_build_guide_aosp
+```
+
+```bash
 cd CustomROM_build_guide_aosp
+
+```
+
+```bash
 sh setup.sh
 ```
 
