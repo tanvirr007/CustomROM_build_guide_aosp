@@ -297,6 +297,8 @@ cd .. && cd .. && cd .. && ls
 cd ../../../ && ls
 ```
 
+<b>or this</b>
+
 ```bash
 cd .. && cd .. && cd ..
 ```
