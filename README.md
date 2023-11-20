@@ -282,7 +282,7 @@ Now, do the same procedure to save and exit as you did to save the <b>AndroidPro
 
 ## Add Maintainer Tag ##
 
-If your rom support maintainer option, Then you can use either flags or overlays to set maintainer names by specifying variables, enabling easy customization without changing core code. 
+If your rom support maintainer name option, Then you can use either flags or overlays to set maintainer names by specifying variables, enabling easy customization without changing core code. 
 
 In the context of Android custom ROMs, flags and overlays are two methods used to modify the appearance and functionality of the ROM. Flags are typically used to enable or disable specific features, while overlays are used to replace or modify existing UI elements. 
 
@@ -290,8 +290,17 @@ The maintainer name is a piece of information that is often displayed on the abo
 
 To add maintainer name it's vary on the rom to rom.
 <b>For e.g.:</b> 
-1. Project Blaze use flag
+1. Project Blaze use flag &
 2. EvolutionX use overlay
+
+<b>Default path:</b>
+
+1. <b>Project Blaze</b>: device/xiaomi/spes/blaze_spes.mk
+
+2. <b>EvolutionX</b>: device/xiaomi/spes/overlay/packages/apps/Settings/res/values/evolution_strings.xml
+
+
+
 
 
 ## Locate Rom Path ##
