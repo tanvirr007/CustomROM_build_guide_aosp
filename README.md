@@ -28,9 +28,10 @@ sudo apt-get install git-core gnupg flex bison build-essential zip curl zlib1g-d
 ```
 <br>
 
-<b>Setting Up Build Environment</b>
 
-## First clone the repo ##
+
+## First clone this repo ##
+<b>Setting Up Build Environment</b>
 
 ```bash
 git clone https://github.com/tanvirr007/CustomROM_build_guide_aosp
@@ -38,7 +39,7 @@ cd CustomROM_build_guide_aosp
 sh setup.sh
 ```
 
-## Directory Structure 
+## Directory Structure ##
 ```
 ROM_NAME/
 |-- .repo/
