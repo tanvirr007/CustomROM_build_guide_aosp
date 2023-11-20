@@ -114,6 +114,7 @@ cd rom_name
 
 <b>Download/Clone</b> rom manifest from GitHub or GitLab into the <b>rom_name</b> folder
 
+<b>Initialize local repository</b>
 ```bash
 repo init -u https://git.libremobileos.com/LMODroid/manifest.git -b thirteen --git-lfs
 ```
