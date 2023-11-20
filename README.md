@@ -110,12 +110,13 @@ cd rom_name
 
 ## Clone Rom Source ##
 
-Download/Clone repositories from GitHub or GitLab into the rom folder
+<b>Download/Clone</b> rom manifest from GitHub or GitLab into the <b>rom_name</b> folder
 
 ```bash
 repo init -u https://git.libremobileos.com/LMODroid/manifest.git -b thirteen --git-lfs
 ```
 
+<b>Sync</b>
 ```bash
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
