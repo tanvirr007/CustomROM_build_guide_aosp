@@ -244,15 +244,18 @@ The MAINTAINER NAME && BUILD TYPE is a piece of information that is often displa
 To add <b>MAINTAINER NAME && BUILD TYPE</b> it may <b>vary</b> on the rom to rom.
 
 <b>For e.g.:</b> 
-1. <b>ProjectBlaze</b> use flag &&
+1. <b>ProjectBlaze</b> use flag on the other hand
 2. <b>EvolutionX</b> use overlay
+
 <b>Default Path:</b>
 1.<b>ProjectBlaze</b>: device/xiaomi/spes/blaze_spes.mk
 2.<b>EvolutionX</b>: device/xiaomi/spes/overlay/packages/apps/Settings/res/values/evolution_strings.xml
 
-<b>Direct Link:</b>
+<b>Live Example - Direct Link:</b>
 1. [ProjectBlaze](https://github.com/tanvirr007/device_xiaomi_spes/blob/13/blaze_spes.mk#L27-L29)
 2. [Evolution X](https://github.com/Evolution-X-Devices/device_xiaomi_spes/blob/tiramisu/overlay/packages/apps/Settings/res/values/evolution_strings.xml#L7-L12)
+
+
 Use <b>nano</b> command to edit the .mk && .xml files
 <b>For e.g.:</b> 
 1. <b>ProjectBlaze:</b> nano blaze_spes.mk
