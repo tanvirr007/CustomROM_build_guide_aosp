@@ -190,9 +190,14 @@ nano AndroidProducts.mk
 
 Where you can see <b>blaze</b>, change it to <b>lmodroid</b>
 Now, to save the <b>AndroidProducts.mk</b> press
+
 <b>"ctrl+o"
+
 "enter"
+
 "ctrl+x"</b>
+
+
 After pressing ctrl+x it will revert back to your current path.
 Now, it's time to <b>rename & modify</b> the second file named <b>blaze_spes.mk</b>
 For this particular rom, my <b>codename is lmodroid</b>
