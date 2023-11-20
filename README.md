@@ -283,7 +283,7 @@ Now, do the same procedure to save and exit as you did to save the <b>AndroidPro
 
 ## Add Maintainer Tag ##
 
-If your rom support this option, Then you can use either <b>flags or overlays to set MAINTAINER NAME & BUILD TYPE</b> either it's <b>OFFICIAL</b> or <b>UNOFFICIAL</b> by specifying variables, enabling easy customization without changing core code. 
+If your rom support this option, Then you can use either <b>FLAGS or OVERLAYS to set MAINTAINER NAME & BUILD TYPE</b> either it's <b>OFFICIAL</b> or <b>UNOFFICIAL</b> by specifying variables, enabling easy customization without changing core code. 
 
 In the context of Android custom ROMs, flags and overlays are two methods used to modify the appearance and functionality of the ROM. Flags are typically used to enable or disable specific features, while overlays are used to replace or modify existing UI elements. 
 
