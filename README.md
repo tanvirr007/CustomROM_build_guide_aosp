@@ -296,9 +296,9 @@ To add maintainer name it's vary on the rom to rom.
 
 <b>Default path:</b>
 
-1. <b>ProjectBlaze</b>: device/xiaomi/spes/blaze_spes.mk
+1.<b>ProjectBlaze</b>: device/xiaomi/spes/blaze_spes.mk
 
-2. <b>EvolutionX</b>: device/xiaomi/spes/overlay/packages/apps/Settings/res/values/evolution_strings.xml
+2.<b>EvolutionX</b>: device/xiaomi/spes/overlay/packages/apps/Settings/res/values/evolution_strings.xml
 
 <b>Direct Link:</b>
 1. <b>ProjectBlaze</b>
