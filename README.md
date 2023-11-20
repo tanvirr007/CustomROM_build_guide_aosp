@@ -214,11 +214,15 @@ $(call inherit-product, vendor/<b>blaze</b>/config/common_full_phone.mk)
 2. Product Specifics
 PRODUCT_NAME := <b>blaze</b>_spes
 It could be something <b>else</b> according to your device tree
+
 <b>Change 1: replace "blaze" with lmodroid
 <br>
+
 Change 2: replace blaze_spes to lmodroid_spes</b>
+
 I mean, in this two subsection <b>replace the word "blaze" with "lmodroid"</b>
 Now, do the same procedure to save and exit as you did to save the <b>AndroidProducts.mk</b>
+
 ## Add Maintainer Tag ##
 
 If your rom support this option, Then you can use either <b>FLAGS or OVERLAYS to set MAINTAINER NAME & BUILD TYPE</b> either it's <b>OFFICIAL</b> or <b>UNOFFICIAL</b> by specifying variables, enabling easy customization without changing core code. 
