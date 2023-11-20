@@ -110,7 +110,7 @@ cd rom_name
 ```
 <br>
 
-Note: Here rom_name mean, use the rom name that you're going to build or you can use any name whatever the fuck you want
+<b>Note:</b> Here, rom_name means, use the rom name that you're going to build or you can use any name whatever the fuck you want
 
 ## Clone Rom Source ##
 
