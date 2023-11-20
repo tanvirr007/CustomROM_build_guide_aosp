@@ -99,7 +99,7 @@ Thanks @akhilnarang for base setup/env script
 
 ## Starting ##
 
-<b>I am gooing to build LibreMobileOs (LMODroid) today</b>
+<b>I am gooing to build LibreMobileOs (LMODroid)</b>
 
 ```bash
 mkdir rom_name
