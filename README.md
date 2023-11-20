@@ -288,10 +288,10 @@ In the context of Android custom ROMs, flags and overlays are two methods used t
 
 The MAINTAINER NAME && BUILD TYPE is a piece of information that is often displayed on the about section in the ROM's settings menu. It is typically used to identify <b>BUILD TYPE</b> either it's <b>OFFICIAL</b> or <b>UNOFFICIAL</b> and the person or team who is responsible for <b>MAINTAINING</b> the ROM. 
 
-To add <b>MAINTAINER NAME && BUILD TYPE<\b> it may <b>vary</b> on the rom to rom.
+To add <b>MAINTAINER NAME && BUILD TYPE</b> it may <b>vary</b> on the rom to rom.
 
 <b>For e.g.:</b> 
-1. <b>ProjectBlaze</b> use flag &
+1. <b>ProjectBlaze</b> use flag &&
 2. <b>EvolutionX</b> use overlay
 
 <b>Default Path:</b>
@@ -310,7 +310,7 @@ Use <b>nano</b> command to edit the .mk && .xml files
 1. <b>ProjectBlaze:</b> nano blaze_spes.mk
 2. <b>EvolutionX:</b> nano evolution_strings.xml
 
-Now, do the same procedure to save and exit as you did to save the <b>AndroidProducts.mk</b>
+Now, do the same procedure to save and exit as you did to save the <b>AndroidProducts.mk</b> && <b>lmodroid_spes.mk</b>
 
 That's it!!!
 
