@@ -371,7 +371,7 @@ mka bacon -j$(nproc --all)
 
 ```
 
-First command is recommended but If it's not working for you then you can try one these commands below 👇
+The first command is recommended, but if it's not effective for you, you can try one of these commands below: 👇
 
 ```bash
 
