@@ -97,7 +97,7 @@ Thanks @akhilnarang for base setup/env script
 
 ## Starting ##
 
-<b>I'll use Pre merged Device/Vendor/Kernel Tree</b>
+<b>I am gooing to build LibreMobileOs (LMODroid)today. I'll use my Pre merged Device/Vendor/Kernel Tree</b>
 
 ```bash
 mkdir rom_name
@@ -107,23 +107,47 @@ mkdir rom_name
 cd rom_name
 ```
 <br>
+
+## Clone Rom Source ##
+
+Download/Clone repositories from GitHub or GitLab
+
+```bash
+repo init -u https://git.libremobileos.com/LMODroid/manifest.git -b thirteen --git-lfs
+```
+
+```bash
+repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
+```
+
+
  
 Here,
 
 
 <b>-b stands for branch
 
-13 stands for branch name and
-
-device/xiaomi/spes for targeted path
-
+thirteen stands for branch name
 </b>
+
+<br>
+
+## Clone Device Tree ##
 
 ```bash
 
 git clone https://github.com/tanvirr007/device_xiaomi_spes -b 13 device/xiaomi/spes
 
 ```
+<b>Here,</b>
+
+-b stands for branch
+
+13 for branch name
+
+<b>device/xiaomi/spes</b> is the download path
+
+<br>
 
 ```bash
 
