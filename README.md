@@ -256,6 +256,7 @@ To add <b>MAINTAINER NAME && BUILD TYPE</b> it may <b>vary</b> on the rom to rom
 2. <b>EvolutionX</b> use overlay
 
 <b>Default Path:</b>
+
 1.<b>ProjectBlaze</b>: device/xiaomi/spes/blaze_spes.mk
 2.<b>EvolutionX</b>: device/xiaomi/spes/overlay/packages/apps/Settings/res/values/evolution_strings.xml
 
