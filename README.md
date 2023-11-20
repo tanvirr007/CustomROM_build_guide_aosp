@@ -201,7 +201,7 @@ it's available either on their <b>GitHub</b> manifest pages or in <b>Telegram</b
 
 <br> <br>
 
-Suppose, i am building <b>LMODroid</b> right now
+I am building <b>LMODroid</b> right now
 
 So, my code name is <b>lmodroid</b>
 
