@@ -110,6 +110,8 @@ cd rom_name
 ```
 <br>
 
+Note: Here rom_name mean, use the rom name that you're going to build or you can use any name whatever the fuck you want
+
 ## Clone Rom Source ##
 
 <b>Download/Clone</b> rom manifest from GitHub or GitLab into the <b>rom_name</b> folder
