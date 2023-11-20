@@ -282,28 +282,35 @@ Now, do the same procedure to save and exit as you did to save the <b>AndroidPro
 
 ## Add Maintainer Tag ##
 
-If your rom support maintainer name option, Then you can use either flags or overlays to set maintainer names by specifying variables, enabling easy customization without changing core code. 
+If your rom support this option, Then you can use either <b>flags or overlays to set MAINTAINER NAME & BUILD TYPE</b> either it's <b>OFFICIAL</b> or <b>UNOFFICIAL</b> by specifying variables, enabling easy customization without changing core code. 
 
 In the context of Android custom ROMs, flags and overlays are two methods used to modify the appearance and functionality of the ROM. Flags are typically used to enable or disable specific features, while overlays are used to replace or modify existing UI elements. 
 
-The maintainer name is a piece of information that is often displayed on the about section in the ROM's settings menu. It is typically used to identify the person or team who is responsible for maintaining the ROM. 
+The MAINTAINER NAME && BUILD TYPE is a piece of information that is often displayed on the about section in the ROM's settings menu. It is typically used to identify <b>BUILD TYPE</b> either it's <b>OFFICIAL</b> or <b>UNOFFICIAL</b> and the person or team who is responsible for <b>MAINTAINING</b> the ROM. 
 
-To add maintainer name it's vary on the rom to rom.
+To add <b>MAINTAINER NAME && BUILD TYPE<\b> it may <b>vary</b> on the rom to rom.
 
 <b>For e.g.:</b> 
 1. <b>ProjectBlaze</b> use flag &
 2. <b>EvolutionX</b> use overlay
 
-<b>Default path:</b>
+<b>Default Path:</b>
 
 1.<b>ProjectBlaze</b>: device/xiaomi/spes/blaze_spes.mk
 
 2.<b>EvolutionX</b>: device/xiaomi/spes/overlay/packages/apps/Settings/res/values/evolution_strings.xml
 
 <b>Direct Link:</b>
-1. <b>ProjectBlaze</b>
-2. <b>EvolutionX</b>
+1. [ProjectBlaze](https://github.com/tanvirr007/device_xiaomi_spes/blob/13/blaze_spes.mk#L27-L29)
 
+2. [Evolution X](https://github.com/Evolution-X-Devices/device_xiaomi_spes/blob/tiramisu/overlay/packages/apps/Settings/res/values/evolution_strings.xml#L7-L12)
+
+Use <b>nano<\b> command to edit the .mk && .xml files
+<b>For e.g.:</b> 
+1. <b>ProjectBlaze:</b> nano blaze_spes.mk
+2. <b>EvolutionX:</b> nano evolution_strings.xml
+
+That's it!!!
 
 
 
