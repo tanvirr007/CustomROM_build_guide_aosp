@@ -436,6 +436,6 @@ Done, Now `wait` patiently.
 
 This guide is based on the work of <strong>Tanvir Hasan (tanvirr007)</strong>. Please give proper credit to the author of this guide, [@tanvirr007](https://github.com/tanvirr007) , when using it in your own Rom.
 
-<br> **Contact:**
+<br> **`Contact:`**
 - [Email](mailto:tanvirhasan2005@proton.me)
 - [Telegram](https://t.me/tanvirr007)
