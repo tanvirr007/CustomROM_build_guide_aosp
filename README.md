@@ -178,7 +178,9 @@ git clone https://github.com/tanvirr007/device_xiaomi_spes -b 13 device/xiaomi/s
 ```
 <b>Here,</b>
 `-b` stands for `branch`
+
 `13` for `branch name`
+
 `device/xiaomi/spes` is the download path
 <br>
 
