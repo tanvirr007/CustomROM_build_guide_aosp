@@ -387,7 +387,7 @@ lunch lmodroid_spes-userdebug
 lunch lmodroid_spes-eng
 ```
 
-`Important Notes:` <br>
+<b>`Important Notes:`</b> <br>
 `user:` User builds are the final product that is released to the public. They are optimized for performance and security, and most debugging features are disabled.
 
 `userdebug:` This build is similar to the user build, but it has some additional features enabled that are useful for debugging and beta testing. For example, the userdebug build allows you to connect a debugger to any process, and it enables more detailed logging.
