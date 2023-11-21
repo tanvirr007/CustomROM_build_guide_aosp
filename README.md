@@ -189,7 +189,7 @@ git clone https://github.com/tanvirr007/device_xiaomi_spes -b 13 device/xiaomi/s
 `device/xiaomi/spes` is the download path
 <br>
 
-<b>Now clone this</b> 👇
+<b>Now clone this hardware tree</b> 👇
 
 ```bash
 git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-20 hardware/xiaomi
