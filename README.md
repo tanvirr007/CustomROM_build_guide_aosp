@@ -146,7 +146,7 @@ cd rom_name
 ```bash
 repo init -u https://git.libremobileos.com/LMODroid/manifest.git -b thirteen --git-lfs
 ```
-<b>Note:</b> Here you can can add `--depth=1`, it's optional.
+<b>Note:</b> Here you can can add `--depth=1` it's optional.
 This `--depth=1` in Git means "clone only the latest commit, using less storage and reducing download time." While, it reduces storage and speeds up cloning, it also limits your access to historical changes beyond the specified depth. If you need to access historical changes or work with multiple branches, you should use a full clone instead. It is a good option for situations where you only need to work with the most recent changes in a repository.
 
 <b>For e.g.:</b>
@@ -177,9 +177,9 @@ thirteen stands for branch name
 git clone https://github.com/tanvirr007/device_xiaomi_spes -b 13 device/xiaomi/spes
 ```
 <b>Here,</b>
--b stands for branch
-13 for branch name
-<b>device/xiaomi/spes</b> is the download path
+`-b` stands for `branch`
+`13` for `branch name`
+`device/xiaomi/spes` is the download path
 <br>
 
 <b>Now clone this</b> 👇
@@ -204,23 +204,23 @@ ls
 
 ## Bring Up ##
 
-Now, you must have to modify these <b>2</b> files on device tree named
+Now, you must have to modify these `2` files on device tree named
 
-<b>1. AndroidProducts.mk</b>
+1. `AndroidProducts.mk`
 
-<b>2. blaze_spes.mk</b>
+2. `blaze_spes.mk`
 
-Each rom use different/same code names likes
+Each rom use `different/same` code names likes
 
-<b>Pixel Experience use: aosp
+<b>Pixel Experience use:</b> `aosp|
 
-LMODroid use: lmodroid
+<b>LMODroid use:</b> `lmodroid`
 
-PixelOS use: aosp
+<b>PixelOS use:</b> `aosp`
 
-Project Elixir use: aosp</b>
+<b>Project Elixir use:</b> `aosp`
 
-it's available either on their <b>GitHub</b> manifest pages or in <b>Telegram</b> group
+it's available either on their `GitHub` manifest pages or in `Telegram` group
 <br>
 
 I am building <b>LMODroid</b> right now
