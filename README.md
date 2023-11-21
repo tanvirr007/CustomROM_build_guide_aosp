@@ -142,6 +142,15 @@ cd rom_name
 ```bash
 repo init -u https://git.libremobileos.com/LMODroid/manifest.git -b thirteen --git-lfs
 ```
+Note: Here uou can can add <b> "--depth=1"</b>.  
+This "--depth=1" in Git means "clone only the latest commit, using less storage and reducing download time."
+
+<b>For e.g:</b>
+
+```bash
+repo init -u https://git.libremobileos.com/LMODroid/manifest.git -b thirteen --git-lfs --depth=1
+```
+
 
 <b>Sync</b>
 ```bash
