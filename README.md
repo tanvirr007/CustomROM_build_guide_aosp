@@ -97,7 +97,7 @@ It varies phone to phone
 ```
 
 i will use
-device tree / vendor forked tree from jabiyeff21 and dblenk9
+device tree / vendor tree from jabiyeff21 and dblenk9
 Mi680 kernel from AkiraNoSushi and muralivijay9845
 
 
@@ -136,7 +136,7 @@ cd rom_name
 ```
 <br>
 
-<b>Note:</b> Here, "rom_name" means, use the rom name that you're going to build or you can choose any kind names whatever the fuck you want
+<b>Note:</b> Here, 'rom_name' means, use the rom name that you're going to build or you can choose any kind names whatever the fuck you want
 
 ## Clone Rom Source ##
 
