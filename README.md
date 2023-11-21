@@ -140,14 +140,14 @@ cd rom_name
 
 ## Clone Rom Source ##
 
-<b>Download/Clone</b> rom manifest from GitHub or GitLab into the <b>rom_name</b> folder
+<b>Download/Clone</b> rom manifest from GitHub or GitLab into the `rom_name` folder
 
 <b>Initialize local repository</b>
 ```bash
 repo init -u https://git.libremobileos.com/LMODroid/manifest.git -b thirteen --git-lfs
 ```
-<b>Note:</b> Here you can can add <b> "--depth=1"</b>, it's optional.
-This "--depth=1" in Git means "clone only the latest commit, using less storage and reducing download time." While, it reduces storage and speeds up cloning, it also limits your access to historical changes beyond the specified depth. If you need to access historical changes or work with multiple branches, you should use a full clone instead. It is a good option for situations where you only need to work with the most recent changes in a repository.
+<b>Note:</b> Here you can can add `--depth=1`, it's optional.
+This `--depth=1` in Git means "clone only the latest commit, using less storage and reducing download time." While, it reduces storage and speeds up cloning, it also limits your access to historical changes beyond the specified depth. If you need to access historical changes or work with multiple branches, you should use a full clone instead. It is a good option for situations where you only need to work with the most recent changes in a repository.
 
 <b>For e.g.:</b>
 
@@ -170,7 +170,7 @@ thirteen stands for branch name
 
 ## Clone Device Tree ##
 
-<b>Download/Clone</b> Device/Vendor/Hardware/Kernel tree from GitHub or GitLab into the <b>rom_name</b> folder. I'll use my Pre merged Device/Vendor/Hardware/Kernel Tree
+<b>Download/Clone</b> `Device/Vendor/Hardware/Kernel tree` from GitHub or GitLab into the `rom_name` folder. I'll use my Pre merged Device/Vendor/Hardware/Kernel Tree
 
 ```bash
 
