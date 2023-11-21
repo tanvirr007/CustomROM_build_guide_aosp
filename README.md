@@ -338,13 +338,13 @@ Now manually type ` cd .. ` to go on your rom directory, or paste this command b
 cd .. && cd .. && cd .. && ls
 ```
 
-<b>or this</b>
+<b>`or this`</b>
 
 ```bash
 cd ../../../ && ls
 ```
 
-<b>or this</b>
+<b>`or this`</b>
 
 ```bash
 cd .. && cd .. && cd ..
@@ -354,7 +354,7 @@ cd .. && cd .. && cd ..
 ls
 ```
 
-That's it. Now, follow next step to start build the rom.
+That's it. Now, follow `next` step to start build the rom.
 <br> <br>
 
 ## Final Step to Build Rom ##
