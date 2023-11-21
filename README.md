@@ -109,6 +109,8 @@ Thanks [Dblenk](https://github.com/boedhack99) for device tree
 
 Thanks [Sayan Sarkar](https://github.com/sayann70) (bro) for base
 
+Thanks [Ascending](https://github.com/TheMatheusDev) for suggestions
+
 Thanks [Muralidharan](https://github.com/muralivijay) for Mi680 kernel
 
 Thanks [Akira](https://github.com/AkiraNoSushi) for Mi680 kernel
@@ -116,6 +118,8 @@ Thanks [Akira](https://github.com/AkiraNoSushi) for Mi680 kernel
 Thanks [Jashkirat](https://github.com/Jashkirat) for recovery
 
 Thanks [Harshit](https://github.com/iamharshit188) (bro) for base setup/env script
+
+Thanks [ChatGPT](https://chat.openai.com/auth/login) && [Bard](https://bard.google.com) for helping me debugging the rom
 
 
 
