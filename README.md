@@ -109,13 +109,13 @@ Thanks [Dblenk](https://github.com/boedhack99) for device tree
 
 Thanks [Sayan Sarkar](https://github.com/sayann70) (bro) for base
 
-Thanks [Muralidharan Kumaresan](https://github.com/muralivijay) for Mi680 kernel
+Thanks [Muralidharan](https://github.com/muralivijay) for Mi680 kernel
 
 Thanks [Akira](https://github.com/AkiraNoSushi) for Mi680 kernel
 
 Thanks [Jashkirat](https://github.com/Jashkirat) for recovery
 
-Thanks [Harshit Tiwari](https://github.com/iamharshit188) (bro) for base setup/env script
+Thanks [Harshit](https://github.com/iamharshit188) (bro) for base setup/env script
 
 
 
