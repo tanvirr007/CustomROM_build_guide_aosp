@@ -162,10 +162,11 @@ repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune 
 ```
  
 Here,
-<b>-b stands for branch
 
-thirteen stands for branch name
-</b>
+`-b` stands for `branch`
+
+`thirteen` stands for `branch name`
+
 <br>
 
 ## Clone Device Tree ##
@@ -177,6 +178,7 @@ thirteen stands for branch name
 git clone https://github.com/tanvirr007/device_xiaomi_spes -b 13 device/xiaomi/spes
 ```
 <b>Here,</b>
+
 `-b` stands for `branch`
 
 `13` for `branch name`
