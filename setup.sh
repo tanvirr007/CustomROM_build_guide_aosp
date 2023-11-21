@@ -23,5 +23,5 @@ if [ "$answer" = "y" ] || [ "$answer" = "yes" ]; then
     echo "Not using swap."
 fi
 echo "Script by @iamharshit188"
-echo "Thanks to tanvirr007 [Tanvir] for merging"
+echo "Thanks to @tanvirr007 [Tanvir] for merging"
 
