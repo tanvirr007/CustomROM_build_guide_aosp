@@ -36,7 +36,7 @@ sudo apt-get install git-core gnupg flex bison build-essential zip curl zlib1g-d
 
 
 
-`<b>Directly paste this</b>`
+<b>`Directly paste this`</b>
 
 
 ```bash
