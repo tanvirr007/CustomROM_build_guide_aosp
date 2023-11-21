@@ -146,6 +146,16 @@ cd rom_name
 ```bash
 repo init -u https://git.libremobileos.com/LMODroid/manifest.git -b thirteen --git-lfs
 ```
+
+Here,
+
+`-b` stands for `branch`
+
+`thirteen` stands for `branch name`
+
+<br>
+
+
 <b>Note:</b> Here you can can add `--depth=1` it's optional.
 This `--depth=1` in Git means "clone only the latest commit, using less storage and reducing download time." While, it reduces storage and speeds up cloning, it also limits your access to historical changes beyond the specified depth. If you need to access historical changes or work with multiple branches, you should use a full clone instead. It is a good option for situations where you only need to work with the most recent changes in a repository.
 
@@ -161,13 +171,6 @@ repo init -u https://git.libremobileos.com/LMODroid/manifest.git -b thirteen --g
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
  
-Here,
-
-`-b` stands for `branch`
-
-`thirteen` stands for `branch name`
-
-<br>
 
 ## Clone Device Tree ##
 
