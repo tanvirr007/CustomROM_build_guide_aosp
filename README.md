@@ -387,7 +387,8 @@ lunch lmodroid_spes-userdebug
 lunch lmodroid_spes-eng
 ```
 
-<b>`Important Notes:`</b> <br>
+`Important Notes:` <br>
+
 `user:` User builds are the final product that is released to the public. They are optimized for performance and security, and most debugging features are disabled.
 
 `userdebug:` This build is similar to the user build, but it has some additional features enabled that are useful for debugging and beta testing. For example, the userdebug build allows you to connect a debugger to any process, and it enables more detailed logging.
@@ -415,10 +416,10 @@ make bacon
 ```
 
 ```bash
-mka bacon -jX
+mka bacon -j`X`
 ```
 
-***If you replace the (X) with the number of CPU cores your system has, the command will utilize all the cores available for compiling the ROM. For example, I have a 16-core CPU, so the command would look like this:👇
+***If you replace the `X` with the number of CPU cores your system has, the command will utilize all the cores available for compiling the ROM. For example, I have a 16-core CPU, so the command would look like this:👇
 
 
 ```bash
