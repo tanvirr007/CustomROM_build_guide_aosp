@@ -103,17 +103,17 @@ Mi680 kernel from AkiraNoSushi and muralivijay9845
 
 ## Credits ##
 
-Thanks [Anar Jabiyev] (https://github.com/Jabiyeff) for device tree
+Thanks [Anar Jabiyev](https://github.com/Jabiyeff) for device tree
 
-Thanks [Dblenk] (https://github.com/boedhack99) for device tree
+Thanks [Dblenk](https://github.com/boedhack99) for device tree
 
-Thanks [Sayan Sarkar] (https://github.com/sayann70) (bro) for base
+Thanks [Sayan Sarkar](https://github.com/sayann70) (bro) for base
 
-Thanks [Muralidharan Kumaresan] (https://github.com/muralivijay) for Mi680 kernel
+Thanks [Muralidharan Kumaresan](https://github.com/muralivijay) for Mi680 kernel
 
-Thanks [Akira] (https://github.com/AkiraNoSushi) for Mi680 kernel
+Thanks [Akira](https://github.com/AkiraNoSushi) for Mi680 kernel
 
-Thanks [Jashkirat] (https://github.com/Jashkirat) for recovery
+Thanks [Jashkirat](https://github.com/Jashkirat) for recovery
 
 Thanks [Harshit Tiwari](https://github.com/iamharshit188) (bro) for base setup/env script
 
