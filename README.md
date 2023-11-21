@@ -219,7 +219,7 @@ Now, you must have to modify these `2` files on device tree named
 
 Each rom use `different/same` code names likes
 
-<b>Pixel Experience use:</b> `aosp|
+<b>Pixel Experience use:</b> `aosp`
 
 <b>LMODroid use:</b> `lmodroid`
 
@@ -230,28 +230,29 @@ Each rom use `different/same` code names likes
 it's available either on their `GitHub` manifest pages or in `Telegram` group
 <br>
 
-I am building <b>LMODroid</b> right now
-So, my code name is <b>lmodroid</b>
-It could be <b>something else</b> according to your Selected rom
-now, open <b>AndroidProducts.mk</b> using <b>nano</b> command
+I am building `LMODroid` right now
+So, my code name is `lmodroid`
+It could be `something else` according to your Selected rom
+now, open `AndroidProducts.mk` using `nano` command
 
 ```bash
 nano AndroidProducts.mk
 ```
 
-Where you can see <b>blaze</b>, change it to <b>lmodroid</b>
-Now, to save the <b>AndroidProducts.mk</b> press
+Where you can see `blaze`, change it to `lmodroid`
+Now, to save the `AndroidProducts.mk` press
 
-<b>"ctrl+o"
+`ctrl+o`
 
-"enter"
+`enter`
 
-"ctrl+x"</b>
+`ctrl+x`
 
 
-After pressing ctrl+x it will revert back to your current path.
-Now, it's time to <b>rename & modify</b> the second file named <b>blaze_spes.mk</b>
-For this particular rom, my <b>codename is lmodroid</b>
+After pressing `ctrl+x` it will revert back to your current path.
+Now, it's time to `rename & modify` the second file named `blaze_spes.mk`
+For this particular rom, my codename is `lmodroid`
+
 <b>Now, type this to rename</b>
 
 ```bash
@@ -264,7 +265,7 @@ mv blaze_spes.mk lmodroid_spes.mk
 ls
 ```
 
-<b>To open "lmodroid_spes.mk", press</b>
+<b>To open `lmodroid_spes.mk` press</b>
 
 ```bash
 nano lmodroid_spes.mk
