@@ -99,21 +99,23 @@ It varies phone to phone
 i will use
 device tree / vendor forked tree from jabiyeff21 and dblenk9
 Mi680 kernel from AkiraNoSushi and muralivijay9845
+
+
 ## Credits ##
 
-Thanks @jabiyeff21 for device tree
+Thanks [Anar Jabiyev] (https://github.com/Jabiyeff) for device tree
 
-Thanks @dblenk9 for device tree
+Thanks [Dblenk] (https://github.com/boedhack99) for device tree
 
-Thanks @sayann70 (bro) for base
+Thanks [Sayan Sarkar] (https://github.com/sayann70) (bro) for base
 
-Thanks @AkiraNoSushi for Mi680 kernel
+Thanks [Muralidharan Kumaresan] (https://github.com/muralivijay) for Mi680 kernel
 
-Thanks @muralivijay9845 for Mi680 kernel
+Thanks [Akira] (https://github.com/AkiraNoSushi) for Mi680 kernel
 
-Thanks @JassiV07 for recovery
+Thanks [Jashkirat] (https://github.com/Jashkirat) for recovery
 
-Thanks [@iamharshit188](https://github.com/iamharshit188) (bro) for base setup/env script
+Thanks [Harshit Tiwari](https://github.com/iamharshit188) (bro) for base setup/env script
 
 
 
