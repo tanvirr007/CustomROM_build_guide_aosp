@@ -265,51 +265,52 @@ mv blaze_spes.mk lmodroid_spes.mk
 ls
 ```
 
-<b>To open `lmodroid_spes.mk` press</b>
+<b>To open `lmodroid_spes.mk` type</b>
 
 ```bash
 nano lmodroid_spes.mk
 ```
-Change these <b>2</b> things:
+Change these `2` things:
 1. Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/<b>blaze</b>/config/common_full_phone.mk)
+$(call inherit-product, vendor/`blaze`/config/common_full_phone.mk)
 2. Product Specifics
-PRODUCT_NAME := <b>blaze</b>_spes
-It could be something <b>else</b> according to your device tree
+PRODUCT_NAME := `blaze_spes`
+It could be something else according to your device tree
 
-<b>Change 1: replace "blaze" with lmodroid
+<b>Change 1: replace `blaze` with lmodroid
 <br>
 
-Change 2: replace blaze_spes to lmodroid_spes</b>
+Change 2: replace `blaze_spes` to `lmodroid_spes`</b>
 
-I mean, in this two subsection <b>replace the word "blaze" with "lmodroid"</b>
-Now, do the same procedure to save and exit as you did to save the <b>AndroidProducts.mk</b>
+I mean, in this two subsection `replace` the word `blaze` with `lmodroid`
+Now, do the same procedure to save and exit as you did to save the `AndroidProducts.mk`
 
 ## Add Maintainer Tag ##
 
-If your rom support this option, Then you can use either <b>FLAGS or OVERLAYS to set MAINTAINER NAME & BUILD TYPE</b> either it's <b>OFFICIAL</b> or <b>UNOFFICIAL</b> by specifying variables, enabling easy customization without changing core code. 
+If your rom support this option, Then you can use either `FLAGS or OVERLAYS to set MAINTAINER NAME & BUILD TYPE` either it's `OFFICIAL` or `UNOFFICIAL` by specifying variables, enabling easy customization without changing core code. 
 
 In the context of Android custom ROMs, flags and overlays are two methods used to modify the appearance and functionality of the ROM. Flags are typically used to enable or disable specific features, while overlays are used to replace or modify existing UI elements. 
 
-The MAINTAINER NAME && BUILD TYPE is a piece of information that is often displayed on the about section in the ROM's settings menu. It is typically used to identify <b>BUILD TYPE</b> either it's <b>OFFICIAL</b> or <b>UNOFFICIAL</b> and the person or team who is responsible for <b>MAINTAINING</b> the ROM. 
+The `MAINTAINER NAME && BUILD TYPE` is a piece of information that is often displayed on the about section in the ROM's settings menu. It is typically used to identify `BUILD TYPE` either it's `OFFICIAL` or `UNOFFICIAL` and the person or team who is responsible for `MAINTAINING` the ROM. 
 
-To add <b>MAINTAINER NAME && BUILD TYPE</b> it may <b>vary</b> on the rom to rom.
+To add <b>MAINTAINER NAME && BUILD TYPE</b> it may vary on the rom to rom.
 
 <b>For e.g.:</b> 
-1. <b>ProjectBlaze</b> use flag on the other hand
-2. <b>EvolutionX</b> use overlay
+1. `ProjectBlaze` use `flag` on the other hand
+2. `EvolutionX` use `overlay`
 
 <b>Default Path:</b>
 
-1.<b>ProjectBlaze</b>: device/xiaomi/spes/blaze_spes.mk
-2.<b>EvolutionX</b>: device/xiaomi/spes/overlay/packages/apps/Settings/res/values/evolution_strings.xml
+1.<b>ProjectBlaze</b>: `device/xiaomi/spes/blaze_spes.mk`
+2.<b>EvolutionX</b>: `device/xiaomi/spes/overlay/packages/apps/Settings/res/values/evolution_strings.xml`
 
-<b>Live Example - Direct Link:</b>
+<b>Live Path Example - Direct Link:</b>
 1. [ProjectBlaze](https://github.com/tanvirr007/device_xiaomi_spes/blob/13/blaze_spes.mk#L27-L29)
 2. [Evolution X](https://github.com/Evolution-X-Devices/device_xiaomi_spes/blob/tiramisu/overlay/packages/apps/Settings/res/values/evolution_strings.xml#L7-L12)
 
 
-Use <b>nano</b> command to edit the .mk && .xml files
+Use `nano` command to edit the `blaze_spes.mk` && `evolution_strings.xml` files
+
 <b>For e.g.:</b> 
 
 1. <b>ProjectBlaze:</b> 
@@ -324,12 +325,14 @@ nano blaze_spes.mk
 nano evolution_strings.xml
 ```
 
-Now, do the same procedure to save and exit as you did to save the <b>AndroidProducts.mk</b> && <b>lmodroid_spes.mk</b>
+Now, do the same procedure to save and exit as you did to save the `AndroidProducts.mk` && `lmodroid_spes.mk`
 
 That's it!!!
+
+
 ## Locate Rom Path ##
 
-Now manually type ( cd .. ) to go on your rom directory, or paste this command below 👇
+Now manually type ` cd .. ` to go on your rom directory, or paste this command below 👇
 
 ```bash
 cd .. && cd .. && cd .. && ls
@@ -353,19 +356,23 @@ ls
 
 That's it. Now, follow next step to start build the rom.
 <br> <br>
+
 ## Final Step to Build Rom ##
-The <b>vendor & kernel</b> will be started to clone in your device After paste this command 👇
+
+The `vendor` & `kernel` will be started to clone in your device After paste this command 👇
 
 ```bash
 . build/envsetup.sh
 ```
 ## Gapps & Vanilla ##
-If you want <b>gapps</b> build paste this;
-If you want <b>vanilla</b> build <b>skip</b> this step & directly paste one of these <b>lunch</b> commands
+
+If you want `gapps` build paste this;
+If you want `vanilla` build then `skip` this step & directly paste one of these `lunch` commands
 
 ```bash
 exportWITH_GAPPS=true
 ```
+
 ## Lunch Commands ##
 
 ```bash
@@ -380,19 +387,20 @@ lunch lmodroid_spes-userdebug
 lunch lmodroid_spes-eng
 ```
 
-<b> Important Notes: </b> <br>
-<b>user:</b> User builds are the final product that is released to the public. They are optimized for performance and security, and most debugging features are disabled.
+`Important Notes:` <br>
+`user:` User builds are the final product that is released to the public. They are optimized for performance and security, and most debugging features are disabled.
 
-<b>userdebug:</b> This build is similar to the user build, but it has some additional features enabled that are useful for debugging and beta testing. For example, the userdebug build allows you to connect a debugger to any process, and it enables more detailed logging.
+`userdebug:` This build is similar to the user build, but it has some additional features enabled that are useful for debugging and beta testing. For example, the userdebug build allows you to connect a debugger to any process, and it enables more detailed logging.
 
-<b>eng (engineering):</b> This build is designed for engineers who are developing and testing the ROM. It has all of the features of the userdebug build, plus some additional features that are useful for development, such as root access. But it's not optimized for performance or security. Not recommended for regular users.
+`eng (engineering):` This build is designed for engineers who are developing and testing the ROM. It has all of the features of the userdebug build, plus some additional features that are useful for development, such as root access. But it's not optimized for performance or security. Not recommended for regular users.
+
 ## Start compilation ##
 
 ```bash
 mka bacon -j$(nproc --all)
 ```
 
-The first command is recommended, but if it's not effective for you, you can try one of these commands below: 👇
+The first `command` is recommended, but if it's not effective for you, you can try one of these commands below: 👇
 
 ```bash
 mka bacon
@@ -419,7 +427,7 @@ mka bacon -j16
 
 ```
 
-Done, Now wait patiently.
+Done, Now `wait` patiently.
 
 
 # Author #
