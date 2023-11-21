@@ -198,6 +198,8 @@ cd device/xiaomi/spes
 ```bash
 ls
 ```
+<b>Note:</b> The `ls` command is a fundamental tool in the Linux operating system used to list the contents of a directory. It is one of the most frequently used commands and is essential for navigating the filesystem.
+
 <br>
 
 ## Bring Up ##
