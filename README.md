@@ -30,7 +30,7 @@ sudo apt-get install git-core gnupg flex bison build-essential zip curl zlib1g-d
 
 
 
-## Build Environment ##
+## Build Environment Script ##
 
 <b>Setting Up Build Environment</b>
 
