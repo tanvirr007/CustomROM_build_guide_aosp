@@ -90,7 +90,7 @@ ROM_NAME/
 
 Directory:
 
-1. `device/xiaomispes`
+1. `device/xiaomi/spes`
 2. `vendor/xiaomi/spes`
 2. `hardware/xiaomi`
 3. `kernel/xiaomi/sm6225`
