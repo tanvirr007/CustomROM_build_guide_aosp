@@ -86,10 +86,14 @@ ROM_NAME/
 ```bash
 #Device tree contains
 
-1. device_xiaomi_spes
-2. vendor_xiaomi_spes
-2. hardware_xiaomi_spes
-3. kernel_xiaomi_spes
+`device` `vendor` `hardware` `kernel`
+
+
+`Path`
+1. `device_xiaomi_spes`
+2. `vendor_xiaomi_spes`
+2. `hardware_xiaomi_spes`
+3. `kernel_xiaomi_sm6225`
 
 spes is my device codename
 It varies phone to phone
