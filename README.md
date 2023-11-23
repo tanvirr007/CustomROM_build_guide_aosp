@@ -90,10 +90,10 @@ ROM_NAME/
 
 Directory:
 
-1. `device_xiaomi_spes`
-2. `vendor_xiaomi_spes`
-2. `hardware_xiaomi_spes`
-3. `kernel_xiaomi_sm6225`
+1. `device/xiaomispes`
+2. `vendor/xiaomi/spes`
+2. `hardware/xiaomi`
+3. `kernel/xiaomi/sm6225`
 
 spes is my device codename
 It varies phone to phone
