@@ -8,7 +8,7 @@ This is the Custom Rom build guide for Redmi Note 11 (spes/spesn)
 2. Minimum 8-core & 32 GB RAM
 3. Higher specs are better
 4. 500 GB+ storage
-5. Device: Redmi Note 11
+5. Device: [Redmi Note 11 Specs](https://www.mi.com/global/product/redmi-note-11/specs)
 6. Codename: spes/spesn
 7. Stable internet connection
 8. OS Ubuntu 20.04 LTS or latest
