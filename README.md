@@ -85,7 +85,7 @@ ROM_NAME/
 
 <b>Device Directory Structure Explanation</b>
 
-1. `device/xiaomi/spes`: This directory contains device-specific configuration files that are unique to the 'spes' codenamed Xiaomi device. These files may include details about the device's hardware components, such as the memory layout, peripheral interfaces, and power management settings.
+1. `device/xiaomi/spes`: This directory contains device-specific configuration files that are unique to the `spes` codenamed Xiaomi device. These files may include details about the device's hardware components, such as the memory layout, peripheral interfaces, and power management settings.
 
 
 2. `vendor/xiaomi/spes`: This directory contains vendor-specific configuration files that are specific to Xiaomi devices. These files may include proprietary drivers, software modules, and optimizations provided by Xiaomi.
@@ -94,10 +94,10 @@ ROM_NAME/
 2. `hardware/xiaomi`: This directory contains generic hardware configuration files that are shared across multiple Xiaomi devices. These files may include common hardware abstraction layers (HALs) and device-agnostic configurations.
 
 
-3. `kernel/xiaomi/sm6225`: This directory contains kernel-specific configuration files that are tailored to the Qualcomm Snapdragon SM6225(SD680) chipset used in the 'spes' device. These files may include kernel modules, device drivers, and chipset-specific optimizations.
+3. `kernel/xiaomi/sm6225`: This directory contains kernel-specific configuration files that are tailored to the Qualcomm Snapdragon SM6225(SD680) chipset used in the `spes` device. These files may include kernel modules, device drivers, and chipset-specific optimizations.
 
 
-spes is my device codename
+[SPES](https://www.mi.com/global/product/redmi-note-11/specs) is my device codename
 It varies phone to phone
 
 
