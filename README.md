@@ -18,8 +18,8 @@ This is the Custom Rom build guide for Redmi Note 11 (spes/spesn)
 
 ## Requirements ##
 
-OS: Ubuntu 18.04 and higher [Any operating system would do (Debian Recommended)]
-Version: 64-bit
+`OS`: Ubuntu 18.04 and higher [Any operating system would do (Debian Recommended)]
+`Version`: 64-bit
 
 <b>Installing required packages</b>
 
