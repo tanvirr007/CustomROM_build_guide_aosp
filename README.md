@@ -83,8 +83,7 @@ ROM_NAME/
 ```
 ## Device Tree ##
 
-```bash
-#Device Directory Structure Explanation
+<b>Device Directory Structure Explanation</b>
 
 1. `device/xiaomi/spes`: This directory contains device-specific configuration files that are unique to the 'spes' codenamed Xiaomi device. These files may include details about the device's hardware components, such as the memory layout, peripheral interfaces, and power management settings.
 
@@ -101,7 +100,6 @@ ROM_NAME/
 spes is my device codename
 It varies phone to phone
 
-```
 
 i will use
 device tree / vendor tree from jabiyeff21 and dblenk9
