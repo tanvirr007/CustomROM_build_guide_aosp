@@ -88,8 +88,8 @@ ROM_NAME/
 
 `device` `vendor` `hardware` `kernel`
 
+<b>Path:</b>
 
-`Path`
 1. `device_xiaomi_spes`
 2. `vendor_xiaomi_spes`
 2. `hardware_xiaomi_spes`
