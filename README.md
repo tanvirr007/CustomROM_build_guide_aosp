@@ -315,9 +315,9 @@ To add <b>MAINTAINER NAME && BUILD TYPE</b> it may vary on the rom to rom.
 
 Most of the rom follow this method. Actually it's depends on the rom source and device tree. Some exceptional are:
 
-1. [EvolutionX by etylix](https://github.com/etylix/device_xiaomi_spes/blob/snow/overlay-evolution/packages/apps/Settings/res/values/strings.xml#L7-L9) by [Etylix](https://github.com/etylix)
+1. [EvolutionX](https://github.com/etylix/device_xiaomi_spes/blob/snow/overlay-evolution/packages/apps/Settings/res/values/strings.xml#L7-L9) by [@etylix](https://github.com/etylix)
 
-2. [EvolutionX](https://github.com/TheMatheusDev/device_xiaomi_spes/blob/thirteen/overlay/SpesSettingsOverlay/res/values/evolution_strings.xml#L7-L9) by [Ascending](https://github.com/TheMatheusDev)
+2. [EvolutionX](https://github.com/TheMatheusDev/device_xiaomi_spes/blob/thirteen/overlay/SpesSettingsOverlay/res/values/evolution_strings.xml#L7-L9) by [@ascending](https://github.com/TheMatheusDev)
 
 
 
