@@ -114,7 +114,7 @@ Thanks [Dblenk](https://github.com/boedhack99) for device tree
 
 Thanks [Sayan Sarkar](https://github.com/sayann70) (bro) for base
 
-Thanks [Ascending](https://github.com/TheMatheusDev) for suggestions
+Thanks [Ascending](https://github.com/TheMatheusDev) for help
 
 Thanks [Muralidharan](https://github.com/muralivijay) for Mi680 kernel
 
