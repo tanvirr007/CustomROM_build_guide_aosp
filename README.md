@@ -313,6 +313,14 @@ To add <b>MAINTAINER NAME && BUILD TYPE</b> it may vary on the rom to rom.
 1. [ProjectBlaze](https://github.com/tanvirr007/device_xiaomi_spes/blob/13/blaze_spes.mk#L27-L29)
 2. [Evolution X](https://github.com/Evolution-X-Devices/device_xiaomi_spes/blob/tiramisu/overlay/packages/apps/Settings/res/values/evolution_strings.xml#L7-L12)
 
+Most of the rom follow this method. Actually it's depends on the rom source and device tree. Some exceptional are:
+
+1. [EvolutionX by etylix](https://github.com/etylix/device_xiaomi_spes/blob/snow/overlay-evolution/packages/apps/Settings/res/values/strings.xml#L7-L9) by [Etylix](https://github.com/etylix)
+
+2. [EvolutionX](https://github.com/TheMatheusDev/device_xiaomi_spes/blob/thirteen/overlay/SpesSettingsOverlay/res/values/evolution_strings.xml#L7-L9) by [Ascending](https://github.com/TheMatheusDev)
+
+
+
 
 Use `nano` command to edit the `blaze_spes.mk` && `evolution_strings.xml` files
 
