@@ -444,6 +444,35 @@ mka bacon -j16
 Done, Now `wait` patiently.
 
 
+***To remove the entire build directory/start `clean build` use the command `clobber`
+
+```bash
+make clobber
+```
+
+It removes previously compiled files, intermediate build artifacts, and configuration files from the build environment. This helps ensure a fresh and clean state before starting a new build process, preventing potential issues that might arise from previous build remnants. After using `make clobber` you'd then run the actual build command to create the ROM from a clean state.
+
+E.g.:
+
+```bash
+. build/envsetup.sh
+```
+
+```bash
+exportWITH_GAPPS=true
+```
+
+```bash
+lunch lmodroid_spes-user
+```
+
+```bash
+mka bacon -j$(nproc --all)
+```
+
+That's all.
+
+
 # Author #
 
 
