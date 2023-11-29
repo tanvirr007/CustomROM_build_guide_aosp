@@ -81,6 +81,7 @@ ROM_NAME/
 |       |-- (sm6225)/    <-- This is where your kernel sources go
 |-- (other project directories)
 ```
+
 ## Device Tree ##
 
 <b>Device Directory Structure Explanation</b>
@@ -94,16 +95,14 @@ ROM_NAME/
 2. `hardware/xiaomi`: This directory contains generic hardware configuration files that are shared across multiple Xiaomi devices. These files may include common hardware abstraction layers (HALs) and device-agnostic configurations.
 
 
-3. `kernel/xiaomi/sm6225`: This directory contains kernel-specific configuration files that are tailored to the Qualcomm Snapdragon SM6225 as known as [Snapdragon 680](https://www.qualcomm.com/products/mobile/snapdragon/smartphones/snapdragon-6-series-mobile-platforms/snapdragon-680-4g-mobile-platform) chipset used in the `spes` device. These files may include kernel modules, device drivers, and chipset-specific optimizations.
+3. `kernel/xiaomi/sm6225`: This directory contains kernel-specific configuration files that are tailored to the Qualcomm SM6225 as known as [Snapdragon 680](https://www.qualcomm.com/products/mobile/snapdragon/smartphones/snapdragon-6-series-mobile-platforms/snapdragon-680-4g-mobile-platform) chipset used in the `spes` device. These files may include kernel modules, device drivers, and chipset-specific optimizations.
 
 
 [SPES](https://www.mi.com/global/product/redmi-note-11/specs) is my device codename
 It varies phone to phone
 
 
-i will use
-device tree / vendor tree from jabiyeff21 and dblenk9
-Mi680 kernel from AkiraNoSushi and muralivijay9845
+I will use my pre-merged device tree, which contains `vendorsetup.sh`. I've specified the cloning directory for the kernel and vendor trees in the `vendorsetup.sh`, so manual cloning isn't necessary for me. However, if your device tree lacks this file, you'll need to manually clone the `device/vendor/hardware/kernel` trees from GitHub or GitLab into the directory mentioned above.
 
 
 ## Credits ##
@@ -452,7 +451,7 @@ make clobber
 
 It removes previously compiled files, intermediate build artifacts, and configuration files from the build environment. This helps ensure a fresh and clean state before starting a new build process, preventing potential issues that might arise from previous build remnants. After using `make clobber` you'd then run the actual build command to create the ROM from a clean state.
 
-E.g.:
+<b> For e.g.:</b>
 
 ```bash
 . build/envsetup.sh
