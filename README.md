@@ -407,7 +407,7 @@ lunch lmodroid_spes-eng
 
 `eng (engineering):` This build is designed for engineers who are developing and testing the ROM. It has all of the features of the userdebug build, plus some additional features that are useful for development, such as root access. But it's not optimized for performance or security. Not recommended for regular users.
 
-## Start compilation ##
+## Start Compilation ##
 
 ```bash
 mka bacon -j$(nproc --all)
