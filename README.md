@@ -115,6 +115,8 @@ Thanks [Sayan Sarkar](https://github.com/sayann70) (bro) for base
 
 Thanks [Ascending](https://github.com/TheMatheusDev) for help
 
+Thanks [Aditya](https://github.com/afterallafk) Bhaiyaa for the guidelines
+
 Thanks [Muralidharan](https://github.com/muralivijay) for Mi680 kernel
 
 Thanks [Akira](https://github.com/AkiraNoSushi) for Mi680 kernel
