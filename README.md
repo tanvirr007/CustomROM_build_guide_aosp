@@ -413,6 +413,30 @@ lunch lmodroid_spes-eng
 mka bacon -j$(nproc --all)
 ```
 
+<b>Caution:</b> If you have encountered this error:
+
+`device/xiaomi/spes/parts/Android.bp:7:1: "XiaomiParts" depends on undefined module "org.lineageos.settings.resources"`
+
+This conflict may vary on ROMS. Paste these two commands one by one to nuke this conflict.
+
+First paste this👇
+
+```bash
+rm -fr packages/resources/devicesettings
+```
+
+Then Paste 👇
+
+```bash
+https://github.com/LineageOS/android_packages_resources_devicesettings
+```
+
+
+
+
+
+
+
 The first `command` is recommended, but if it's not effective for you, you can try one of these commands below: 👇
 
 ```bash
