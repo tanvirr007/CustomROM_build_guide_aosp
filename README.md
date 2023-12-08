@@ -184,7 +184,7 @@ repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune 
 
 ```bash
 
-git clone https://github.com/tanvirr007/device_xiaomi_spes -b 13 device/xiaomi/spes
+git clone https://github.com/tanvirr007/device_xiaomi_spes -b 14 device/xiaomi/spes
 ```
 <b>Here,</b>
 
@@ -501,6 +501,51 @@ lunch lmodroid_spes-user
 
 ```bash
 mka bacon -j$(nproc --all)
+```
+
+
+## Transfer ROM by SFTP ##
+
+SFTP stands for `Secure File Transfer Protocol`. It's a secure method used to transfer files between computers over a network. SFTP is an extension of the `SSH (Secure Shell)` protocol, providing encryption and authentication to ensure secure data transfer. It's commonly used for securely transferring files, managing remote file systems, and performing file operations securely over a network.
+
+`SourceForge` allows user to transfer files via SFTP method, So, I'm going to use SourceForge's `SFTP` protocol to move a file from my `Ubuntu` server to my `SourceForge` account</b>
+
+Now, follow these steps below:
+
+```bash
+sftp tanvirr007@frs.sourceforge.net
+```
+After that it it prompt you to enter your password. Enter your password and press enter
+
+```bash
+cd /home/frs/project/[`your root account name`]/[`target path name`]
+```
+Suppose, My root name is `customromspes` and my targeted path is `LMODroid` It'll transfer the rom file into `LMODroid`. For that i have to paste this command
+
+```bash
+cd /home/frs/project/customromspes/LMODroid
+```
+
+After performing this command it'll take you to `LMODroid` directory. Now paste this command to start transferring the rom from `Ubuntu` to your `SourceForge` account
+
+```bash
+put [`file name`]
+```
+
+<b>For E.g:</b>
+```bash
+put AfterLife-V4.0-Wrath-UNOFFICIAL-spes-20231207-Gapps.zip
+```
+To verify the upload, you can use the `ls` command to list the files in the current directory
+
+```bash
+ls
+```
+
+Once you're done, type `bye` to exit the SFTP session
+
+```bash
+bye
 ```
 
 That's all.
