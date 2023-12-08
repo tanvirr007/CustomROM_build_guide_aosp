@@ -5,7 +5,7 @@ This is the Custom Rom build guide for Redmi Note 11 (spes/spesn)
 
 #Requirements
 1. A cloud server
-2. Minimum 8-core & 32 GB RAM
+2. Minimum 8-core & 64 GB RAM
 3. Higher specs are better
 4. 500 GB+ storage
 5. Device: Redmi Note 11
