@@ -113,7 +113,7 @@ Thanks [Dblenk](https://github.com/boedhack99) for device tree
 
 Thanks [Sayan Sarkar](https://github.com/sayann70) (bro) for base
 
-Thanks [Ascending](https://github.com/TheMatheusDev) for help
+Thanks [Ascending](https://github.com/TheMatheusDev) (bro) for help
 
 Thanks [Aditya](https://github.com/afterallafk) Bhaiyaa for the guidelines
 
