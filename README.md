@@ -508,7 +508,7 @@ mka bacon -j$(nproc --all)
 
 SFTP stands for `Secure File Transfer Protocol`. It's a secure method used to transfer files between computers over a network. SFTP is an extension of the `SSH (Secure Shell)` protocol, providing encryption and authentication to ensure secure data transfer. It's commonly used for securely transferring files, managing remote file systems, and performing file operations securely over a network.
 
-`SourceForge` allows user to transfer files via SFTP method, So, I'm going to use SourceForge's `SFTP` protocol to move a file from my `Ubuntu` server to my `SourceForge` account</b>
+`SourceForge` allows user to transfer files via SFTP method, So, I'm going to use SourceForge's `SFTP` protocol to copy a file from my `Ubuntu` server to my `SourceForge` account</b>
 
 Now, follow these steps below:
 
@@ -518,9 +518,9 @@ sftp tanvirr007@frs.sourceforge.net
 After that it it prompt you to enter your password. Enter your password and press enter
 
 ```bash
-cd /home/frs/project/[`your root account name`]/[`target path name`]
+cd /home/frs/project/[`your project name`]/[`target path name`]
 ```
-Suppose, My root name is `customromspes` and my targeted path is `LMODroid` It'll transfer the rom file into `LMODroid`. For that i have to paste this command
+Suppose, My project name is `customromspes` and my targeted path is `LMODroid` It'll transfer the rom file into `LMODroid`. For that i have to paste this command
 
 ```bash
 cd /home/frs/project/customromspes/LMODroid
