@@ -430,7 +430,7 @@ rm -fr packages/resources/devicesettings
 Then Paste 👇
 
 ```bash
-https://github.com/LineageOS/android_packages_resources_devicesettings
+git clone https://github.com/LineageOS/android_packages_resources_devicesettings packages/resources/devicesettings
 ```
 
 
