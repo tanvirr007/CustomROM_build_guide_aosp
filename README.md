@@ -517,7 +517,7 @@ sftp <your_username>@frs.sourceforge.net
 ```
 For example:
 ```bash
-sftp JoeyMotherFucker@frs.sourceforge.net
+sftp tanvirr@frs.sourceforge.net
 ```
 
 After that it it prompt you to enter your password. Enter your password and press enter
