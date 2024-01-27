@@ -525,7 +525,7 @@ cd /home/frs/project/[`your project name`]/[`target path name`]
 Suppose, My project name is `customromspes` and my targeted path is `LMODroid` It'll transfer the rom file into `LMODroid`. For that i have to paste this command
 
 ```bash
-cd /home/frs/project/customromspes/LMODroid
+cd /home/frs/project/customromspes/AfterLife-Project
 ```
 
 After performing this command it'll take you to `LMODroid` directory. Now paste this command to start transferring the rom from `Ubuntu` to your `SourceForge` account
