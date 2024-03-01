@@ -468,16 +468,46 @@ make bacon -j$(nproc --all)
 m [bring up codename] -j"$(nproc --all)"
 ```
 
-***If you replace the `X` with the number of CPU cores your system has, the command will utilize all the cores available for compiling the ROM. For example, I have a 16-core CPU, so the command would look like this:👇
-
-
 ```bash
-
-mka bacon -j16
-
+export CCACHE_DIR=/tmp/ccache && export CCACHE_EXEC=$(which ccache) && export USE_CCACHE=1 && ccache -M 450G && ccache -o compression=true && ccache -z && source build/envsetup.sh && lunch lmodroid_spes-userdebug && mka bacon -j$(nproc --all)
 ```
 
-Done, Now `wait` patiently.
+<b> Explanation: </b>
+
+1. <b> Setting up Compiler Cache: </b>
+
+• `export CCACHE_DIR=/tmp/ccache:` Sets the directory for the compiler cache.
+
+• `export CCACHE_EXEC=$(which ccache):` Specifies the path to the ccache executable.
+
+• `export USE_CCACHE=1:` Enables the use of ccache for caching compilation objects.
+
+• `ccache -M 450G:` Sets the maximum size of the ccache to 450 gigabytes.
+
+• `ccache -o compression=true:` Enables compression for cached objects in ccache.
+
+• `ccache -z:` Zeroes the statistics of the ccache.
+
+
+2. <b> Setting up Environment: </b>
+
+• `source build/envsetup.sh:` Sources the environment setup script for building Android.
+
+
+3. <b> Selecting Build Variant: </b>
+
+• `lunch lmodroid_spes-userdebug:` Selects the build variant for the Xiaomi Redmi Note 11 also known as `spes/n` device.
+
+
+4. <b> Compiling the ROM: </b>
+
+• `make -j$(nproc --all) bacon:| Initiates the compilation process using make.
+
+- `make:` Initiates the compilation.
+- `j$(nproc --all):` Specifies the number of jobs to run concurrently based on available processor cores.
+- `bacon:` Represents the target to compile the ROM.
+
+<b> Notes: </b> These commands make it easier for the beginners to set up and compile Custom ROM for their own device. Rom compiling for Android is seriously addictive, even more than drugs. Keep enjoying the journey! xD
 
 
 ***To remove the entire build directory/start `clean build` use the command `clobber`
