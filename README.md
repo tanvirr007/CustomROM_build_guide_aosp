@@ -501,7 +501,7 @@ export CCACHE_DIR=/tmp/ccache && export CCACHE_EXEC=$(which ccache) && export US
 
 4. <b> Compiling the ROM: </b>
 
-• `make -j$(nproc --all) bacon:| Initiates the compilation process using make.
+• `make -j$(nproc --all) bacon:` Initiates the compilation process using make.
 
 - `make:` Initiates the compilation.
 - `j$(nproc --all):` Specifies the number of jobs to run concurrently based on available processor cores.
