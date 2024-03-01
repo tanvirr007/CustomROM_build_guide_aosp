@@ -364,6 +364,12 @@ cd .. && cd .. && cd ..
 ```bash
 ls
 ```
+you can also adjust the kernel by using:
+
+```bash
+nano kernel/xiaomi/sm6225/arch/arm64/configs/vendor/spes-perf_defconfig
+```
+With this command, you can just tweak the kernel configuration file however you want.
 
 That's it. Now, follow `next` step to start build the rom.
 <br> <br>
