@@ -364,7 +364,7 @@ cd .. && cd .. && cd ..
 ```bash
 ls
 ```
-you can also adjust the kernel by using:
+You can also adjust the kernel by using:
 
 ```bash
 nano kernel/xiaomi/sm6225/arch/arm64/configs/vendor/spes-perf_defconfig
@@ -387,7 +387,7 @@ If you want `gapps` build paste this;
 If you want `vanilla` build then `skip` this step & directly paste one of these `lunch` commands
 
 ```bash
-exportWITH_GAPPS=true
+export WITH_GAPPS=true
 ```
 
 ## Lunch Commands ##
@@ -505,6 +505,13 @@ lunch lmodroid_spes-user
 ```bash
 mka bacon -j$(nproc --all)
 ```
+<b> You can also directly run this: </b>
+
+
+```bash
+export CCACHE_DIR=/tmp/ccache && export CCACHE_EXEC=$(which ccache) && export USE_CCACHE=1 && ccache -M 450G && ccache -o compression=true && ccache -z && source build/envsetup.sh && lunch lmodroid_spes-userdebug && mka bacon -j$(nproc --all)
+```
+
 
 
 ## Transfer ROM by SFTP ##
